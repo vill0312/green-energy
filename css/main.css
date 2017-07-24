@@ -1,0 +1,376 @@
+/*-------MOBILE VIEW-------*/
+
+body {
+    width: 30rem;
+    line-height: 1.618;
+    font-size: 0.618rem;
+}
+
+header {
+    max-width: 20rem;
+    min-width: 20rem;
+    margin: 0 auto;
+}
+
+header img {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    margin: 4px 0 10px 10px;
+    
+}
+
+header h1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+}
+
+nav {
+    
+    clear: both;
+    text-align: center;
+    line-height: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+nav ul li {
+    margin: 5px auto;
+    background-color: #e2ffcc;
+    padding: 4px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 12px;
+    background-color: #e2ffcc;
+    color: inherit;
+}
+
+
+
+.banner {
+    color: white;
+    text-align: center;
+    height: 15rem;
+    overflow: hidden;
+    clear: both;
+}
+
+.mh-image {
+    transition: opacity .5s ease;
+}
+
+.mh-image img {
+    width: 100%;
+}
+
+.mh-image figure {
+    padding: 0;
+    margin: 0;
+}
+
+.mh-image figcaption {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: -110px
+    
+}
+
+.box2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box2 h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2em;
+    font-family: 'ubuntu', sans-serif;
+}
+
+main img {
+    width: 100%;
+}
+
+main ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main li {
+    font-size: 3em;
+    margin: 20px 40px;
+}
+
+main li:hover {
+    color: green;
+    cursor: pointer;
+    transition: .25s;
+}
+
+main figcaption {
+    font-size: 1.25em;
+    font-family: 'raleway', sans-serif;
+    margin-bottom: 50px;
+}
+
+footer {
+    color: white;
+    background-color: #2d2d2d;
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    padding: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: green;
+    transition: .5s;
+}
+
+
+
+/*-------TABLET VIEW-------*/
+@media all and (min-width: 32rem) {
+    body {
+    width: 60rem;
+    font-size: 1rem;
+    }
+    
+    header {
+    max-width: 60rem;
+    min-width: 60rem;
+    margin: 0 auto;
+    }
+    
+    header img {
+    float: left;
+    display: inline-block;
+    height: 50px;
+    margin: 8px 10px 10px 270px;
+    }
+    
+    header h1 {
+        margin-left: 180px;
+    }
+    
+    nav li {
+        margin: 0;
+        width: calc(32.0% - 10px + 8px);
+        float: left;
+    }
+    nav li:last-child {
+        margin-right: 0;
+    }
+    
+    .banner {
+    color: white;
+    text-align: center;
+    height: 20rem;
+    overflow: hidden;
+    clear: both;
+    }
+
+    .mh-image {
+        transition: opacity .5s ease;
+    }
+
+    .mh-image img {
+        width: 100%;
+    }
+
+    .mh-image figure {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mh-image figcaption {
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 4em;
+        font-weight: 700;
+        font-style: italic;
+        margin-top: -350px
+    }
+    
+    main figure img {
+        margin: 0 1rem 1rem 0;
+        width: calc(50% - 1rem + 0.5rem);
+        float: left;
+    }
+    main figure figcaption {
+        float: right;
+        text-align: left;
+        width: calc(50% - 1rem + 0.5rem);
+        line-height: 1.6rem;
+    }
+    
+    footer {
+        clear: both;
+    }
+    
+    
+}
+
+
+/*-------DESKTOP VIEW-------*/
+@media all and (min-width: 60rem) {
+    body {
+        width: 100%;
+        font-size: 1.618rem;
+    }
+    
+    header {
+        margin-left: 10px;
+    }
+    
+    header img {
+    float: left;
+    display: inline-block;
+    height: 90px;
+    margin: 8px 10px 10px 0px;
+    }
+    
+    header h1 {
+        margin-left: 0px;
+    }
+    
+    nav li {
+        margin-right: 3px;
+        width: calc(16.66% - 10px + 8px);
+        float: left;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+    
+    nav li:last-child {
+        margin-right: 20px;
+    }
+    
+    .banner {
+    color: white;
+    text-align: center;
+    height: 30rem;
+    overflow: hidden;
+    clear: both;
+    }
+
+    .mh-image {
+        transition: opacity .5s ease;
+    }
+
+    .mh-image img {
+        width: 100%;
+    }
+
+    .mh-image figure {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mh-image figcaption {
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 4em;
+        font-weight: 700;
+        font-style: italic;
+        margin-top: -600px
+    }
+    
+    .box2 {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .box2 h1 {
+        text-align: left;
+        margin-left: 20px;
+        letter-spacing: 2px;
+        font-size: 2em;
+        font-family: 'ubuntu', sans-serif;
+    }
+    main ul {
+        width: 5%;
+        float: left;
+        display: inherit;
+    }
+    main li {
+        float: inherit;
+        font-size: 1.5em;
+        margin-bottom: 10;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    
+    main figure {
+        width: 90%;
+        float: left;
+    }
+    
+    main figure img {
+        margin: 0 1rem 1rem 0;
+        width: calc(30% - 1rem + 0.5rem);
+        float: left;
+    }
+    
+    main figure figcaption {
+        float: right;
+        text-align: left;
+        width: calc(70% - 1rem + 0.5rem);
+        line-height: 2.5rem;
+        font-size: 1em;
+        margin-bottom: 100px;
+    }
+    
+    footer {
+        font-size: .5em;
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
